@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Beginner's Method</title>
+  <meta charset="utf-8">
+  <style>
+    body {
+      background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210728/pngtree-purple-rubiks-cube-holographic-floating-geometric-abstract-background-image_752595.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    h1{
+    font-family: "Courier New";
+    margin-left: 50px;
+    margin-top: 30px;
+        }
+    p, h2, img, figcaption, h3, li{
+    font-family: "Calibri";
+    margin-left: 50px;
+    }
+    h4{
+    margin-left: 50px;
+    color: rgb(156, 37, 23);
+    }
+    #ycornpic{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 95% 25%;
+    overflow: hidden;
+    }
+    #cfop{
+    background-color: "white";
+    border: 2px solid #008CBA;
+    color: black;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-left: 50px;
+    font-family: "Calibri";
+    }
+    #cfop:hover {
+    background-color: #008CBA;
+    border: 2px solid "black";
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+<h1>The Beginner's Method</h1>
+
+<h2>Contents:</h2>
+<ul>
+    <li><a href="#wcross">Making the White Cross</a></li>
+    <li><a href="#wcorners">Solving the White Corners</a></li>
+    <li><a href="#midlay">Solving the Middle Layer</a></li>
+    <li><a href="#ycross">Making the Yellow Cross</a></li>
+    <li><a href="#matchcent">Match the Yellow Cross with Centers</a></li>
+    <li><a href="ycorners">'Solve' the Yellow Corners</a></li>
+    <li><a href="solvecube">SOLVE THE CUBE!!</a></li>
+</ul>
+
+<p>Here are a few videos that might help you if you are stuck:</p>
+<ul>
+    <li><a href="https://www.youtube.com/watch?v=7Ron6MN45LY&t=477s&pp=ygUdcnViaWsncyBjdWJlIGJlZ2lubmVycyBtZXRob2Q%3D">JPerm's Tutorial</a></li>
+    <li><a href="https://www.youtube.com/watch?v=AuYVJWN-A2c&t=973s">How Do You Do?'s Tutorial (the one I used)</a></li>
+    <li><a href="https://www.youtube.com/watch?v=TOxiutcdquY">How Do You Do's Troubleshooting Video</a></li>
+</ul>
+<h3 id="wcross">Step 1:</h3>
+<p>Make the white cross.</p>
+<img src="https://ruwix.com/pics/solution/1.svg">
+<p>Find the white center piece and move the pieces that have white on them around the white center to form a cross.</p>
+<p>Make sure that on each piece that has white on it, the other colour on that piece matches the center piece colour that is below it if you turn the cube to facing the other colour of the white piece.</p>
+<p>If they do not match, try to find a way to move it to the correct spot without messing up other pieces.</p>
+<p>If you can't, you can always move the other pieces back afterwards.</p>
+
+<h3 id="wcorners">Step 2:</h3>
+<p>Solve the white corners.</p>
+<img src="https://ruwix.com/pics/solution/3.svg">
+<p>For this step, you need to learn an algorithm. I just call it the right hand algorithm but some people call it the Sexy move. (don't ask)</p>
+<p>Turn the cube upside down with the white cross facing down. Find a corner piece that has white on it.</p>
+<p>The corner piece will have two other colours on it. Move the corner so that it is above but in between the two faces that the center pieces are the same colours as the two other colours on the corner piece.</p>
+<p>Hold it so that the corner piece is on the right side but facing forward if you get what I mean.</p>
+<p>Algorithm: Move the right face up, move the top face to the left/clockwise, move the right face down, move the top face t the right/anti-clockwise.</p>
+<p>Keep repeating those four moves until the corner pieces is in the right place. Repeat with the other three corner pieces.</p>
+<h4>SPECIAL CASE:</h4>
+<p>If one of the pieces is on the bottom, move the cube so that the corner piece is on the right side but facing forward and do the same four moves.</p>
+<p>Now do the same as before.</p>
+
+<h3 id="midlay">Step 3:</h3>
+<p>Solve the middle layer.</p>
+<img src="https://images.squarespace-cdn.com/content/v1/54f2df67e4b079e94c291e4f/1427442917705-9MLP41LFWKT1OZN5IC0M/step4_rubiks_cube" height="150" width="150">
+<p>Now the bottom layer is solved. Find a piece that does not have white or yellow on it that is an edge piece.</p>
+<p>Move that piece on top of the center piece that has the same colour as the face of that piece facing forwards.</p>
+<p>Look at the other colour on that piece. Look at the faces next to the face that is facing forward.</p>
+<p>One of those faces should have a center piece that is the same colour as the colour of the face of the piece facing up.</p>
+<p>Move the piece on top of the center piece that is <strong>OPPOSITE</strong> that face.</p>
+<p>If you moved the piece to your left, do the same four moves having the cube facing the original way.</p>
+<p>Now move your cube to the right one face and do the same moves but opposite and with your left hand.</p>
+<p>If you are stuck this is how you do it: move the left face up, move the top to the right/anti-clockwise, move the left face down, move the top to the left/clockwise</p>
+<p>If you moved the piece to your RIGHT, do the left hand version holding the cube the way you held it before.</p>
+<p>Then move the cube to the LEFT one face and do the right hand version.</p>
+<p>Sorry if this all is very confusing.</p>
+
+<h3 id="ycross">Step 4:</h3>
+<p>Make the yellow cross.</p>
+<img src="https://images.squarespace-cdn.com/content/v1/54f2df67e4b079e94c291e4f/1459525852393-SZBTN50Y4H3OLMIMVYSA/image-asset.png" height="150" width="150">
+<p>There are 3 cases: either there is just one yellow center piece with no yellow around it, or there is a sort of 1 by 1 L shape or a line in the middle.</p>
+<p>If you only have the center piece, turn the front face to the right/clockwise and do the algorithm from before (the right hand one) and then move the front face back to the left/anti-clockwise. (you can do this from anywhere with the yellow face facing up)</p>
+<p>Repeat until you get a yellow cross.</p>
+<p>If you have the L shape, turn the so that the L is in the top-left corner</p>
+<img src="https://images.squarespace-cdn.com/content/v1/54f2df67e4b079e94c291e4f/1445763372535-TRTP5AV56R2PDU2ZK0PS/rubiks+cube+yellow+L" height="150" width="150">
+<p>Do the same moves twice.</p>
+<p>if you get the line, hold it so that the line is horizontal. Do the same moves once.</p>
+
+<h3 id="matchcent">Step 5:</h3>
+<p>Match the cross with the centers.</p>
+<img src="https://images.squarespace-cdn.com/content/v1/54f2df67e4b079e94c291e4f/1427442986389-P6L49XF2MET0859IXYJB/step6_rubiks_cube" height="150" width="150">
+<p>This time you also have 3 cases: none are matching, 2 are matching, all of them are matching.</p>
+<p>What I mean by 'matching' is that the other colour on a yellow edge matches the center piece below it. You may need to move the top face a bit to have a look.</p>
+<p>For this you will need a new algorithm.</p>
+<p>If none match, you can do it from anywhere. If 2 are matching, you do it with the two matching ones in the top-right corner. If all are matching, you get to skip this step.</p>
+<p>Algorithm: right face up, top face to the left/clockwise, right face down, top face to the left/clockwise, right face up, top face to the right/anti-clockwise x2, right face down.</p>
+<p>Now move the top face to see whether they all are matching. If not, do it again with the previous rules.</p>
+
+<h3 id="ycorners">Step 6:</h3>
+<img src="https://images.squarespace-cdn.com/content/v1/668fde52a2afec107b57bdda/214c94df-cbf4-4e59-9c20-8318942ea70e/step+05.png" id="ycornpic"><p><strong>'Solve'</strong> the yellow corners.</p>
+<p>Note the 'solve' has quotation marks.</p>
+<p>This ALSO has 3 cases: none are 'solved', 1 is and all of them are.</p>
+<p>What is considered 'solved' is that the colours are matching but the piece may need to be rotated to be fully correct.</p>
+<p>This needs a new algorithm too.</p>
+<p>If none are 'solved' you do it from anywhere. If 1 is, you hold it so that the 'solved' corner is on your right side but facing you.</p>
+<p>Algorithm: top face left/clockwise, right face up, top face right/anti-clockwise, left face up, top face left/clockwise, right face down, top face right/anti-clockwise, left face down</p>
+<p>That an awful lot to remember but I think that the algorithm in the previous step is harder to remember.</p>
+<p>Once you've done that, check how many are 'solved' and repeat if not everything is using the rules.</p>
+
+<h3 id="solvecube">Step 7:</h3>
+<img src="https://images.squarespace-cdn.com/content/v1/54f2df67e4b079e94c291e4f/1427443023271-YFS9RS48B72KVI1LFSQX/solved_rubiks_cube" height="150" width="150">
+<p>SOLVE THE CUBE !</p>
+<p>This is the part you've been waiting for.</p>
+<p>Flip the cube upside down so that the white face is facing up.</p>
+<p>If some corners need to be rotated, put that corner at your right side but with it facing you.</p>
+<p>Repeat the right hand algorithm until it is right.</p>
+<p>Move the bottom layer to move any other unsolved ones at your right side with it facing you and do the same.</p>
+<p>Pick it up, check it and enjoy your moment of glory :) !</p>
+<p>When you are doing your right hand algorithms, it may look like it is messing up the cube, but it isn't. It is right when the yellow face is facing down.</p>
+<p>Once you have become familiar with the Beginner's Method, you may want to move onto learning CFOP.</p>
+<button type="button" id="cfop">The Next Step: CFOP</button>
+</body>
+</html>
