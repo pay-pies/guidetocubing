@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Moving Onto CFOP</title>
+  <meta charset="utf-8">
+<style>
+    body {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210728/pngtree-purple-rubiks-cube-holographic-floating-geometric-abstract-background-image_752595.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    h1{
+    font-family: "Courier New";
+    margin-left: 50px;
+    margin-top: 30px;
+        }
+    p, h2, img, figcaption, h3, li{
+    font-family: "Calibri";
+    margin-left: 50px;
+    }
+    h4{
+    margin-left: 50px;
+    color: rgb(156, 37, 23);
+    }
+</style>
+</head>
+<body>
+<h1>Moving onto CFOP</h1>
+</body>
+</html>
